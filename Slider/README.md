@@ -7,3 +7,11 @@ Mobil Uygulama Geliştirme dersi kapsamında ödev olarak verilen ufak bir şehi
 ![2 - Ankara](https://i.ibb.co/t2s2GrM/2-ankara.png)
 ![3 - Trabzon](https://i.ibb.co/61x5HCj/3-trabzon.png)
 ![4 - Karabük](https://i.ibb.co/YXfBdTz/4-karab-k.png)
+
+
+## Resimler
+Resimlerin alındığı kaynaklar;
+- İstanbul - https://www.etstur.com/
+- Ankara   - https://www.albertgenau.com/
+- Trabzon  - http://www.raillife.com.tr
+- Karabük  - https://www.sozcu.com.tr
