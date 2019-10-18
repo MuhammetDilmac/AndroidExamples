@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Slider</string>
+    <string name="arrow_left">Önce ki</string>
+    <string name="arrow_right">Sonra ki</string>
+    <string name="imageLabel">Resim</string>
+    <string name="cityLabel">Şehir</string>
+    <string name="plateLabel">Plaka</string>
+    <string name="descriptionLabel">Açıklama</string>
+    <string-array name="cities">
+        <item>@array/city_istanbul</item>
+        <item>@array/city_ankara</item>
+        <item>@array/city_trabzon</item>
+        <item>@array/city_karabuk</item>
+    </string-array>
+    <string-array name="city_istanbul">
+        <item>İstanbul</item>
+        <item>34</item>
+        <item>İstanbul, Türkiye\'de yer alan şehir ve ülkenin 81 ilinden biri. Ülkenin en kalabalık, ekonomik, tarihi ve sosyo-kültürel açıdan en önemli şehridir.</item>
+        <item>@drawable/istanbul</item>
+    </string-array>
+    <string-array name="city_ankara">
+        <item>Ankara</item>
+        <item>06</item>
+        <item>Ankara, Türkiye\'nin başkenti ve en kalabalık ikinci ili. Nüfusu 2018 itibarıyla 5.503.985 kişidir. Bu nüfus, 25 ilçede, 1425 mahallede bulunmaktadır. İl genelinde nüfus yoğunluğu 215\'dir.</item>
+        <item>@drawable/ankara</item>
+    </string-array>
+    <string-array name="city_karabuk">
+        <item>Karabük</item>
+        <item>78</item>
+        <item>Karabük, Karabük ilinin merkez ilçesi. Karabük merkez olmasına rağmen, Safranbolu ilçesi tarihsel evleri sebebiyle ismini daha çok duyurmuştur. Bunun yanında Türkiye\'nin ilk demir çelik fabrikasının bulunduğu Karabük merkezinde, bu fabrika sayesinde geniş bir iş sahası oluşturularak Karabük\'ün gelişimi sağlanmıştır.</item>
+        <item>@drawable/karabuk</item>
+    </string-array>
+    <string-array name="city_trabzon">
+        <item>Trabzon</item>
+        <item>61</item>
+        <item>Trabzon Türkiye\'nin bir ili ve en kalabalık yirmi dokuzuncu şehri. Trabzon İl Nüfusu: 779.379\'dur. Karadeniz Bölgesi\'nin Doğu Karadeniz Bölümü\'nde yer alan ilin Karadeniz\'e kıyısı bulunur. Karadeniz sahili ile Zigana Dağları arasında yer almakta olup yüzölçümü açısından az bir alan kaplar.</item>
+        <item>@drawable/trabzon</item>
+    </string-array>
+</resources>

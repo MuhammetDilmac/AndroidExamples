@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearArea"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameArea"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:id="@+id/sliderImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorFullBlack"
+            android:contentDescription="@string/imageLabel"
+            app:srcCompat="@color/colorAccent" />
+
+        <ImageButton
+            android:id="@+id/arrowLeftButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|start"
+            android:background="@color/colorBlack"
+            android:contentDescription="@string/arrow_left"
+            android:onClick="arrowLeftButtonClicked"
+            android:padding="10dp"
+            app:srcCompat="@drawable/keyboard_arrow_left" />
+
+        <ImageButton
+            android:id="@+id/arrowRightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|end"
+            android:background="@color/colorBlack"
+            android:contentDescription="@string/arrow_right"
+            android:onClick="arrowRightButtonClicked"
+            android:padding="10dp"
+            app:srcCompat="@drawable/keyboard_arrow_right" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:id="@+id/cityLabel"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+
+            android:text="@string/cityLabel"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:lineHeight="28sp" />
+
+        <TextView
+            android:id="@+id/plateLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/cityLabel"
+            android:text="@string/plateLabel"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:lineHeight="28sp" />
+
+        <TextView
+            android:id="@+id/cityArea"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cityLabel"
+            android:textSize="24sp"
+            app:lineHeight="28sp" />
+
+        <TextView
+            android:id="@+id/plateArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/plateLabel"
+            android:layout_toEndOf="@+id/cityArea"
+            android:textSize="24sp"
+            app:lineHeight="28sp" />
+
+        <TextView
+            android:id="@+id/descriptionLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cityArea"
+            android:layout_marginTop="20dp"
+            android:text="@string/descriptionLabel"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:lineHeight="14sp" />
+
+        <TextView
+            android:id="@+id/descriptionArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/descriptionLabel"
+            android:textSize="12sp"
+            app:lineHeight="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>
