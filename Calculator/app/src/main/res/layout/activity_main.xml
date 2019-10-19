@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/calculaterMainArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/firstRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:inputType="text" />
+            <Button
+                android:id="@+id/buttonForReset"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/actionReset"
+                android:onClick="actionButtonClicked"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/secondRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonForOne"
+                android:layout_weight="1"
+                android:onClick="numberButtonClicked"
+                android:text="@string/numberOne" />
+
+            <Button
+                android:id="@+id/buttonForTwo"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="numberButtonClicked"
+                android:text="@string/numberTwo" />
+
+            <Button
+                android:id="@+id/buttonForThree"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="numberButtonClicked"
+                android:text="@string/numberThree" />
+
+            <Button
+                android:id="@+id/buttonForAddition"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="actionButtonClicked"
+                android:text="@string/actionAddition" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/thirdRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonForFour"
+                android:layout_weight="1"
+                android:onClick="numberButtonClicked"
+                android:text="@string/numberFour" />
+
+            <Button
+                android:id="@+id/buttonForFive"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="numberButtonClicked"
+                android:text="@string/numberFive" />
+
+            <Button
+                android:id="@+id/buttonForSix"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="numberButtonClicked"
+                android:text="@string/numberSix" />
+
+            <Button
+                android:id="@+id/buttonForExtraction"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="actionButtonClicked"
+                android:text="@string/actionExtraction" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fourthRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonForSeven"
+                android:layout_weight="1"
+                android:onClick="numberButtonClicked"
+                android:text="@string/numberSeven" />
+
+            <Button
+                android:id="@+id/buttonForEight"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="numberButtonClicked"
+                android:text="@string/numberEight" />
+
+            <Button
+                android:id="@+id/buttonForNine"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="numberButtonClicked"
+                android:text="@string/numberNine" />
+
+            <Button
+                android:id="@+id/buttonForMultiplication"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="actionButtonClicked"
+                android:text="@string/actionMultiplication" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fifthRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonForPoint"
+                android:layout_weight="1"
+                android:onClick="numberButtonClicked"
+                android:text="@string/numberPoint" />
+
+            <Button
+                android:id="@+id/buttonForZero"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="numberButtonClicked"
+                android:text="@string/numberZero" />
+
+            <Button
+                android:id="@+id/buttonForEquals"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="actionButtonClicked"
+                android:text="@string/actionEquals" />
+
+            <Button
+                android:id="@+id/buttonForDivision"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="actionButtonClicked"
+                android:text="@string/actionDivision" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
