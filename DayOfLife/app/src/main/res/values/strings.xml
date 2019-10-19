@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DayOfLife</string>
+    <string name="date_hint">Doğum Tarihiniz</string>
+    <string name="date_day">Gün</string>
+    <string name="date_month">Ay</string>
+    <string name="date_year">Yıl</string>
+    <string name="calculate">Hesapla</string>
+</resources>

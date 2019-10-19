@@ -4,3 +4,4 @@ BLM427 - Mobil Cihazların Programlanması dersi kapsamında verilen ev ödevler
 ## Ödevler
 - [Slider](/Slider)
 - [Calculator](/Calculator)
+- [DayOfLife](/DayOfLife)
