@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     Button calculateButton;
     TextView output;
 
+    Integer[] bigMonths   = { 1, 3, 5, 7, 8, 10, 12 };
+    Integer[] shortMonths = { 4, 6, 9, 11 };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         dateMonthInput  = findViewById(R.id.dateMonthInput);
         dateYearInput   = findViewById(R.id.dateYearInput);
         calculateButton = findViewById(R.id.calculateButton);
-        output          = findViewById(R.id.output);
+        output          = findViewById(R.id.output  );
     }
 
     public void onCalculateButtonClicked(View view) {
@@ -45,32 +48,54 @@ public class MainActivity extends AppCompatActivity {
         int currentDay   = Calendar.getInstance().get(Calendar.DAY_OF_MONTH);
         int totalDay = 0;
 
-        for(; year < currentYear; year++) {
+        for(; year < currentYear; year++){
             if ( year % 4 == 0 )
                 totalDay += 366;
             else
                 totalDay += 365;
         }
 
-        Integer[] bigMonths   = { 1, 3, 5, 7, 8, 10, 12 };
-        Integer[] shortMonths = { 4, 6, 9, 11 };
-
-
-        for(; month < currentMonth; month++) {
-            if ( isInclude(bigMonths, month) )
-                totalDay += 31;
-            else if ( isInclude(shortMonths, month) )
-                totalDay += 30;
+        if ( isInclude(bigMonths, month) ) {
+            totalDay += currentDay + (31 - day);
+        }
+        else if ( isInclude(shortMonths, month) ) {
+            totalDay += currentDay + (30 - day);
+        }
+        else {
+            if ( year % 4 == 0 ) {
+                totalDay += currentDay + (29 - day);
+            }
             else
-                if ( year % 4 == 0 )
-                    totalDay += 29;
-                else
-                    totalDay += 28;
+                totalDay += currentDay + (28 - day);
         }
 
-        totalDay += currentDay;
+        if(month < currentMonth){
+            totalDay = monthCalculate(month,currentMonth,totalDay,year,1);
+        }
+        else{
+            totalDay = monthCalculate(currentMonth,month,totalDay,year,-1);
+        }
 
         output.setText("Toplam Yaşadığınız Gün Sayısı: " + Integer.toString(totalDay));
+    }
+
+    private int monthCalculate(int A_Month,int B_Month,int totalDay,int year,int bigOrShortControl){
+
+        for(; A_Month < B_Month; A_Month++){
+            if ( isInclude(bigMonths, A_Month) ) {
+                totalDay += 31*bigOrShortControl;
+            }
+            else if ( isInclude(shortMonths, A_Month) ) {
+                totalDay += 30*bigOrShortControl;
+            }
+            else
+            if ( year % 4 == 0 ) {
+                totalDay += 29*bigOrShortControl;
+            }
+            else
+                totalDay += 28*bigOrShortControl;
+        }
+        return totalDay;
     }
 
     private boolean isInclude(Integer[] array, int value) {
