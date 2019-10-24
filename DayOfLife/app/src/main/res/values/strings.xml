@@ -5,4 +5,5 @@
     <string name="date_month">Ay</string>
     <string name="date_year">Yıl</string>
     <string name="calculate">Hesapla</string>
+    <string name="livedDaysCount">Toplamda %1$d gündür yaşıyorsunuz</string>
 </resources>

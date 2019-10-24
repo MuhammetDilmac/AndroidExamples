@@ -35,24 +35,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:ems="10"
-                android:inputType="numberDecimal" />
+                android:ems="2"
+                android:inputType="numberDecimal"
+                android:textAlignment="center" />
 
             <EditText
                 android:id="@+id/dateMonthInput"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:ems="10"
-                android:inputType="numberDecimal" />
+                android:ems="2"
+                android:inputType="numberDecimal"
+                android:textAlignment="center" />
 
             <EditText
                 android:id="@+id/dateYearInput"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:ems="10"
-                android:inputType="numberDecimal" />
+                android:ems="4"
+                android:inputType="numberDecimal"
+                android:textAlignment="center" />
         </LinearLayout>
 
         <Button
