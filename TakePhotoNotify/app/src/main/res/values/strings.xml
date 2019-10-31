@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TakePhotoNotify</string>
+    <string name="phone_number">Telefon Numarası</string>
+    <string name="take_photo">Fotoğraf Çek ve Bilgilendir</string>
+    <string name="need_sms_permission">Fotoğraf çekildiğine dair bildirim gönderebilmek için SMS iznini vermeniz gerekmektedir.</string>
+    <string name="need_camera_permission">Fotoğraf çekebilmek için KAMERA iznini vermeniz gerekmektedir.</string>
+    <string name="need_all_permission">Uygulamanın çalışabilmesi için SMS ve Kamera iznini birlikte vermeniz gerekmektedir.</string>
+    <string name="image_captured">Resim başarıyla çekilmiştir.</string>
+    <string name="image_not_captured">Resime ulaşılamadı.</string>
+    <string name="image_capture_notify">Telefondan resim çekildi!</string>
+    <string name="image_capture_notify_send">Telefon numarasına sms gönderildi!</string>
+    <string name="fill_phone_number">Lütfen telefon numarası yazınız.</string>
+</resources>
