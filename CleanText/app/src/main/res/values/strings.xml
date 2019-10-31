@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CleanText</string>
+    <string name="goto_input">Girdi Temizleme</string>
+    <string name="your_input">Temizlemek istediğiniz mesajı yazınız</string>
+    <string name="clear_text">Temizle</string>
+    <string name="toast_clean_text">Temizlenmiş girdi metniniz: %1$s</string>
+    <string name="toast_invalid_length">Toplamda temizlenen karakter sayısı: %1$d</string>
+</resources>
