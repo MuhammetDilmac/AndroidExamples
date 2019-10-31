@@ -8,3 +8,4 @@ BLM427 - Mobil Cihazların Programlanması dersi kapsamında verilen ev ödevler
 - [Calculator](/Calculator) - Butonların Kullanımı Ödevi
 - [DayOfLife](/DayOfLife) - TextView ve TextEdit Kullanımı Ödevi
 - [CleanText](/CleanText) - activityForResult Kullanımı Ödevi
+- [TakePhotoNotify](/TakePhotoNotify) - Permission Ödevi
