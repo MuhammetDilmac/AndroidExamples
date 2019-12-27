@@ -9,3 +9,4 @@ BLM427 - Mobil Cihazların Programlanması dersi kapsamında verilen ev ödevler
 - [DayOfLife](/DayOfLife) - TextView ve TextEdit Kullanımı Ödevi
 - [CleanText](/CleanText) - activityForResult Kullanımı Ödevi
 - [TakePhotoNotify](/TakePhotoNotify) - Permission Ödevi
+- [BasicContactList](/BasicContactList) - SQLite Ödevi

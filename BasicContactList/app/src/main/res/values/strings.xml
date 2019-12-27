@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BasicContactList</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="exit">Exit</string>
+    <string name="empty_list">Empty List</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="call">Call</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">Delete</string>
+    <string name="go_back">Go Back</string>
+    <string name="update">Update</string>
+</resources>
