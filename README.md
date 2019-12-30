@@ -10,3 +10,4 @@ BLM427 - Mobil Cihazların Programlanması dersi kapsamında verilen ev ödevler
 - [CleanText](/CleanText) - activityForResult Kullanımı Ödevi
 - [TakePhotoNotify](/TakePhotoNotify) - Permission Ödevi
 - [BasicContactList](/BasicContactList) - SQLite Ödevi
+- [Downloader](/Downloader) - Async Task Ödevi

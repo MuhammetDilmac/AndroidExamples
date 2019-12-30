@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Downloader</string>
+    <string name="rfc_number">RFC Number</string>
+    <string name="fetch_rfc">Fetch RFC</string>
+</resources>
